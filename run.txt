@@ -1,0 +1,1 @@
+sudo docker run --name steer-tomcat -p 8080:8080 --network=steer-bridge --ip 182.18.1.10 -d steer/tomcat:v2
